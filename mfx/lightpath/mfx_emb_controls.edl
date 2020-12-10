@@ -1,0 +1,156 @@
+
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 2888
+y 2208
+w 600
+h 445
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 7
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+gridSize 8
+endScreenProperties
+
+                         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 48
+w 600
+h 397
+lineWidth 1
+lineColor index 3
+
+fill
+fillColor index 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 600
+h 48
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 93
+value {
+  "        MFX Embedded Controls"
+}
+endObjectProperties
+         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 17
+y 58
+w 565
+h 377
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 8
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 27
+y 68
+w 543
+h 357
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "LOC\\embeddedControl=0"
+numDsps 12
+displayFileName {
+   0 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   1 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_dg1_ipm_diode.edl"
+   2 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_dg1_ipm_target.edl"
+   3 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_dg2_ipm_diode.edl"
+   4 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   5 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_tfs_xfls.edl"
+   6 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   7 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_dg2_pim.edl"
+   8 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_dg2_ipm_target.edl"
+   9 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_dg1_pim.edl"
+   10 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   11 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_reflaser_mirror.edl"
+}      
+menuLabel {
+   0 "DG2 Slits DS"
+   1 "DG1 IPIMB Diode"
+   2 "DG1 IPIMB Target"
+   3 "DG2 IPIMB Diode"
+   4 "DG1 Slits"
+   5 "TFS"
+   6 "DG2 Slits US"
+   7 "DG2 PIM"
+   8 "DG2 IPIMB Target"
+   9 "DG1 PIM"
+   10 "DG2 Slits MS"
+   11 "MFX Ref Laser"
+}
+symbols {
+   0 "JAWS=MFX:DG2:JAWS:DS,MMS_NTH=MFX:DG2:MMS:19,MMS_LFT=MFX:DG2:MMS:19,MMS_STH=MFX:DG2:MMS:18,MMS_RHT=MFX:DG2:MMS:18,MMS_UP=MFX:DG2:MMS:17,MMS_TOP=MFX:DG2:MMS:17,MMS_DWN=MFX:DG2:MMS:16,MMS_BOT=MFX:DG2:MMS:16"
+   1 "None"
+   2 "None"
+   3 "None"
+   4 "JAWS=MFX:DG1:JAWS,MMS_NTH=MFX:DG1:MMS:05,MMS_LFT=MFX:DG1:MMS:05,MMS_STH=MFX:DG1:MMS:04,MMS_RHT=MFX:DG1:MMS:04,MMS_UP=MFX:DG1:MMS:03,MMS_TOP=MFX:DG1:MMS:03,MMS_DWN=MFX:DG1:MMS:02,MMS_BOT=MFX:DG1:MMS:02"
+   5 "None"
+   6 "JAWS=MFX:DG2:JAWS:US,MMS_NTH=MFX:DG2:MMS:04,MMS_LFT=MFX:DG2:MMS:04,MMS_STH=MFX:DG2:MMS:03,MMS_RHT=MFX:DG2:MMS:03,MMS_UP=MFX:DG2:MMS:02,MMS_TOP=MFX:DG2:MMS:02,MMS_DWN=MFX:DG2:MMS:01,MMS_BOT=MFX:DG2:MMS:01"
+   7 "None"
+   8 "None"
+   9 "None"
+   10 "JAWS=MFX:DG2:JAWS:MS,MMS_NTH=MFX:DG2:MMS:15,MMS_LFT=MFX:DG2:MMS:15,MMS_STH=MFX:DG2:MMS:14,MMS_RHT=MFX:DG2:MMS:14,MMS_UP=MFX:DG2:MMS:13,MMS_TOP=MFX:DG2:MMS:13,MMS_DWN=MFX:DG2:MMS:12,MMS_BOT=MFX:DG2:MMS:12"
+   11 "None"
+}
+noScroll
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 26
+y 67
+w 548
+h 359
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 3
+endObjectProperties

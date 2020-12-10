@@ -1,0 +1,14 @@
+*.*~
+*.MCB
+*.cfg~
+*.mcb
+*.old
+*.sw[op]
+*.tmp
+.status
+.svn
+core.*
+iocmanager.json
+svn
+*.save
+*.sav

@@ -1,0 +1,138 @@
+
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 2888
+y 2208
+w 600
+h 445
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 7
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+gridSize 8
+endScreenProperties
+
+                         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 48
+w 600
+h 397
+lineWidth 1
+lineColor index 3
+
+fill
+fillColor index 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 600
+h 48
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 84
+value {
+  "        XCS Embedded Controls"
+}
+endObjectProperties
+         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 17
+y 58
+w 565
+h 377
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 8
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 27
+y 68
+w 543
+h 357
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "LOC\\embeddedControl=0"
+numDsps 6
+displayFileName {
+   0 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   1 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   2 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_sb2_ipm6_diode.edl"
+   3 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_xfls.edl"
+   4 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_sb2_ipm6_target.edl"
+   5 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_sb2_pim6.edl"
+}      
+menuLabel {
+   0 "Slits 5"
+   1 "Slits 6"
+   2 "IPM 5 Diode"
+   3 "Be Lens"
+   4 "IPM 5 Target"
+   5 "PIM 5"
+}
+symbols {
+   0 "JAWS=XCS:SB2:US:JAWS,MMS_NTH=XCS:SB2:MMS:32,MMS_LFT=XCS:SB2:MMS:32,MMS_STH=XCS:SB2:MMS:31,MMS_RHT=XCS:SB2:MMS:31,MMS_UP=XCS:SB2:MMS:33,MMS_TOP=XCS:SB2:MMS:33,MMS_DWN=XCS:SB2:MMS:34,MMS_BOT=XCS:SB2:MMS:34"
+   1 "JAWS=XCS:SB2:DS:JAWS,MMS_NTH=XCS:SB2:MMS:36,MMS_LFT=XCS:SB2:MMS:36,MMS_STH=XCS:SB2:MMS:35,MMS_RHT=XCS:SB2:MMS:35,MMS_UP=XCS:SB2:MMS:37,MMS_TOP=XCS:SB2:MMS:37,MMS_DWN=XCS:SB2:MMS:38,MMS_BOT=XCS:SB2:MMS:38"
+   2 "None"
+   3 "None"
+   4 "None"
+   5 "None"
+}
+noScroll
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 26
+y 67
+w 548
+h 359
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 3
+endObjectProperties

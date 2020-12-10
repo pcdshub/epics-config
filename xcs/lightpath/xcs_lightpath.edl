@@ -1,0 +1,8717 @@
+
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 2888
+y 2208
+w 1377
+h 754
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 7
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+gridSize 8
+endScreenProperties
+
+                         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 48
+w 1377
+h 706
+lineWidth 1
+lineColor index 3
+
+fill
+fillColor index 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 1377
+h 48
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 84
+value {
+  "        XCS Lightpath"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 325
+w 20
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 325
+w 20
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 105
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 105
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 110
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 110
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 294
+w 105
+h 65
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 294
+w 105
+h 65
+lineWidth 1
+lineColor index 14
+
+fill
+fillColor index 1
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 120
+y 299
+w 105
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Simulated Beam"
+}
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 158
+y 316
+w 29
+h 18
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "XCS:LIPY:XRT:IN:0:SIMUL"
+pressValue "1"
+onLabel "ON"
+offLabel "ON"
+
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 158
+y 334
+w 29
+h 18
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "XCS:LIPY:XRT:IN:0:SIMUL"
+pressValue "0"
+onLabel "OFF"
+offLabel "OFF"
+
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 225
+y 325
+w 100
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 225
+y 325
+w 100
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 225
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 225
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 230
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 230
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 235
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 235
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 240
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 240
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 250
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 250
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 255
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 255
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 260
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 260
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 280
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 280
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 285
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 285
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 295
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 295
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 300
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 300
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 305
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 305
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 310
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 310
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 315
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 315
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:XRT:IN:0:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:XRT:IN:0:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 357
+y 325
+w 100
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 357
+y 325
+w 100
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 357
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 357
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 362
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 362
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 367
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 367
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 372
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 372
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 377
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 377
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 382
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 382
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 387
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 387
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 392
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 392
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 397
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 397
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 402
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 402
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 407
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 407
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 412
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 412
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 417
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 417
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 422
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 422
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 427
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 427
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 432
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 432
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 437
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 437
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 442
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 442
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 447
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 447
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 452
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 452
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 325
+y 325
+w 36
+h 24
+
+beginGroup
+
+# (Open OK?)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 333
+y 317
+w 16
+h 16
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 15
+fillAlarm
+alarmPv XCS:SB2:VGC:01:OPN_OK
+closePolygon
+numPoints 7
+xPoints {
+  0 340
+  1 340
+  2 333
+  3 333
+  4 347
+  5 347
+  6 340
+}
+yPoints {
+  0 333
+  1 326
+  2 326
+  3 317
+  4 317
+  5 326
+  6 326
+}
+endObjectProperties
+# (Closed?)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 325
+y 325
+w 32
+h 16
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 20
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:TRANS"
+visMin "0"
+visMax "1"
+numPoints 5
+xPoints {
+  0 325
+  1 355
+  2 355
+  3 325
+  4 325
+}
+yPoints {
+  0 325
+  1 341
+  2 325
+  3 341
+  4 325
+}
+endObjectProperties
+# (Closed?)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 325
+y 325
+w 32
+h 16
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 15
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:TRANS"
+visMin "1"
+visMax "2"
+numPoints 5
+xPoints {
+  0 325
+  1 355
+  2 355
+  3 325
+  4 325
+}
+yPoints {
+  0 325
+  1 341
+  2 325
+  3 341
+  4 325
+}
+endObjectProperties
+# (Closed?)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 325
+y 325
+w 32
+h 16
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:TRANS"
+visMin "2"
+visMax "3"
+numPoints 5
+xPoints {
+  0 325
+  1 355
+  2 355
+  3 325
+  4 325
+}
+yPoints {
+  0 325
+  1 341
+  2 325
+  3 341
+  4 325
+}
+endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 268
+y 295
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "SB2 Valve"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 457
+y 325
+w 50
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 457
+y 325
+w 50
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 457
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 457
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 462
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 462
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 467
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 467
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 472
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 472
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 477
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 477
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 482
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 482
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 487
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 487
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 492
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 492
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 497
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 497
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 502
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 502
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:VGC:01:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 543
+y 325
+w 50
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 543
+y 325
+w 50
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 543
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 543
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 548
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 548
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 553
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 553
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 558
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 558
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 563
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 563
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 568
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 568
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 573
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 573
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 578
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 578
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 583
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 583
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 588
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 588
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 313
+w 36
+h 36
+
+beginGroup
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 313
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 20
+ visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:TRANS"
+ visMin "0"
+ visMax "1"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 313
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 15
+ visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:TRANS"
+ visMin "1"
+ visMax "2"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 313
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 35
+ visPv "XCS:LIPY:0:XCS:SB2:MMS:09:READ_DF:TRANS"
+ visMin "2"
+ visMax "3"        
+ endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 450
+y 295
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Pulse Picker"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 629
+y 325
+w 50
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 629
+y 325
+w 50
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 629
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 629
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 634
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 634
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 639
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 639
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 644
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 644
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 649
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 649
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 654
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 654
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 659
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 659
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 664
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 664
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 669
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 669
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 674
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 674
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:ATT:10:STATE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 593
+y 313
+w 36
+h 36
+
+beginGroup
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 593
+y 313
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 20
+ visPv "XCS:LIPY:0:XCS:ATT:10:STATE:TRANS"
+ visMin "0"
+ visMax "1"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 593
+y 313
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 15
+ visPv "XCS:LIPY:0:XCS:ATT:10:STATE:TRANS"
+ visMin "1"
+ visMax "2"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 593
+y 313
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 35
+ visPv "XCS:LIPY:0:XCS:ATT:10:STATE:TRANS"
+ visMin "2"
+ visMax "3"        
+ endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 536
+y 355
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Beamstop Att"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 325
+w 50
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 325
+w 50
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 720
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 720
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 725
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 725
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 730
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 730
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 735
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 735
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 740
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 740
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 745
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 745
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 750
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 750
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 760
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:XFLS:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 760
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:XFLS:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 679
+y 313
+w 36
+h 36
+
+beginGroup
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 679
+y 313
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 20
+ visPv "XCS:LIPY:0:XCS:XFLS:TRANS"
+ visMin "0"
+ visMax "1"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 679
+y 313
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 15
+ visPv "XCS:LIPY:0:XCS:XFLS:TRANS"
+ visMin "1"
+ visMax "2"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 679
+y 313
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 35
+ visPv "XCS:LIPY:0:XCS:XFLS:TRANS"
+ visMin "2"
+ visMax "3"        
+ endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 622
+y 295
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Be Lens"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 801
+y 325
+w 50
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 801
+y 325
+w 50
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 801
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 801
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 806
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 806
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 811
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 811
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 816
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 816
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 821
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 821
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 826
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 826
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 831
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 831
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 836
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 836
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 841
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 841
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 846
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 846
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 765
+y 313
+w 36
+h 36
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 765
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 783
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 765
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 783
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 765
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 783
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 765
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 783
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 765
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 783
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 765
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 783
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:US:JAWS:BLOCKED:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 708
+y 355
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Slits 5"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 887
+y 325
+w 50
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 887
+y 325
+w 50
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 887
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 887
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 892
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 892
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 897
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 897
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 902
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 902
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 907
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 907
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 912
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 912
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 917
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 917
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 922
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 922
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 927
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 927
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 932
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 932
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 851
+y 313
+w 36
+h 36
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 851
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 869
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 851
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 869
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 851
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 869
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 851
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 869
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 851
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 869
+y 313
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 851
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 869
+y 331
+w 18
+h 18
+lineWidth 2
+lineColor index 13
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:DS:JAWS:BLOCKED:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 794
+y 295
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Slits 6"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 973
+y 325
+w 50
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 973
+y 325
+w 50
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 973
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 973
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 978
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 978
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 983
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 983
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 988
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 988
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 993
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 993
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 998
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 998
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1003
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1003
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1008
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1008
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1013
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1013
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1018
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1018
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 937
+y 313
+w 36
+h 36
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 937
+y 313
+w 36
+h 36
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 943
+y 319
+w 24
+h 24
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 937
+y 313
+w 36
+h 36
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 943
+y 319
+w 24
+h 24
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 937
+y 313
+w 36
+h 36
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 943
+y 319
+w 24
+h 24
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:TARGET:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 880
+y 355
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "IPM 5 Target"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1059
+y 325
+w 50
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1059
+y 325
+w 50
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1059
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1059
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1064
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1064
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1069
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1069
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1074
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1074
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1079
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1079
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1084
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1084
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1089
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1089
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1094
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1094
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1099
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1099
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1104
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1104
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1023
+y 313
+w 36
+h 36
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1023
+y 313
+w 36
+h 36
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 20
+
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1037
+y 319
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "0"
+ visMax "1"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1037
+y 335
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "0"
+ visMax "1"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1045
+y 327
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "0"
+ visMax "1"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1029
+y 327
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "0"
+ visMax "1"        
+ endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1023
+y 313
+w 36
+h 36
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 15
+
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1037
+y 319
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "1"
+ visMax "2"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1037
+y 335
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "1"
+ visMax "2"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1045
+y 327
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "1"
+ visMax "2"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1029
+y 327
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "1"
+ visMax "2"        
+ endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1023
+y 313
+w 36
+h 36
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 35
+
+visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1037
+y 319
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "2"
+ visMax "3"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1037
+y 335
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "2"
+ visMax "3"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1045
+y 327
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "2"
+ visMax "3"        
+ endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1029
+y 327
+w 8
+h 8
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 14
+ visPv "XCS:LIPY:0:XCS:SB2:IPM6:DIODE:TRANS"
+ visMin "2"
+ visMax "3"        
+ endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 966
+y 295
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "IPM 5 Diode"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1145
+y 325
+w 100
+h 12
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1145
+y 325
+w 100
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1145
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1145
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1150
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1150
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1155
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1155
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1160
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1160
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1165
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1165
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1170
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1170
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1175
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1175
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1180
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1180
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1185
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1185
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1190
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1190
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1195
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1195
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1200
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1200
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1205
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1205
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1210
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1210
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1215
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1215
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1220
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1220
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1225
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1225
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1230
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1230
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1235
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1235
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1240
+y 325
+w 5
+h 12
+lineColor index 78
+fill
+fillColor index 78
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:LIGHT_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1240
+y 329
+w 5
+h 4
+lineColor index 35
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:BEAM_TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1109
+y 319
+w 36
+h 24
+
+beginGroup
+# (Camera Body)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1109
+y 319
+w 36
+h 24
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 20
+closePolygon
+numPoints 8
+xPoints {
+  0 1109
+  1 1133
+  2 1133
+  3 1145
+  4 1145
+  5 1133
+  6 1133
+  7 1109
+}
+yPoints {
+  0 343
+  1 343
+  2 331
+  3 343
+  4 319
+  5 331
+  6 319
+  7 319
+}
+
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:TRANS"
+visMin "0"
+visMax "1"
+endObjectProperties
+# (Camera Body)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1109
+y 319
+w 36
+h 24
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 15
+closePolygon
+numPoints 8
+xPoints {
+  0 1109
+  1 1133
+  2 1133
+  3 1145
+  4 1145
+  5 1133
+  6 1133
+  7 1109
+}
+yPoints {
+  0 343
+  1 343
+  2 331
+  3 343
+  4 319
+  5 331
+  6 319
+  7 319
+}
+
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:TRANS"
+visMin "1"
+visMax "2"
+endObjectProperties
+# (Camera Body)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1109
+y 319
+w 36
+h 24
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 35
+closePolygon
+numPoints 8
+xPoints {
+  0 1109
+  1 1133
+  2 1133
+  3 1145
+  4 1145
+  5 1133
+  6 1133
+  7 1109
+}
+yPoints {
+  0 343
+  1 343
+  2 331
+  3 343
+  4 319
+  5 331
+  6 319
+  7 319
+}
+
+visPv "XCS:LIPY:0:XCS:SB2:PIM6:TRANS"
+visMin "2"
+visMax "3"
+endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1052
+y 355
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "PIM 5"
+}
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 457
+y 261
+w 728
+h 150
+lineWidth 2
+lineColor index 14
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 457
+y 244
+w 150
+h 20
+font "helvetica-medium-r-18.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "SB2"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1245
+y 325
+w 36
+h 24
+
+beginGroup
+
+# (Open OK?)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1253
+y 317
+w 16
+h 16
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 15
+fillAlarm
+alarmPv XCS:LAM:VGC:01:OPN_OK
+closePolygon
+numPoints 7
+xPoints {
+  0 1260
+  1 1260
+  2 1253
+  3 1253
+  4 1267
+  5 1267
+  6 1260
+}
+yPoints {
+  0 333
+  1 326
+  2 326
+  3 317
+  4 317
+  5 326
+  6 326
+}
+endObjectProperties
+# (Closed?)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1245
+y 325
+w 32
+h 16
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 20
+visPv "XCS:LIPY:0:XCS:LAM:VGC:01:TRANS"
+visMin "0"
+visMax "1"
+numPoints 5
+xPoints {
+  0 1245
+  1 1275
+  2 1275
+  3 1245
+  4 1245
+}
+yPoints {
+  0 325
+  1 341
+  2 325
+  3 341
+  4 325
+}
+endObjectProperties
+# (Closed?)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1245
+y 325
+w 32
+h 16
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 15
+visPv "XCS:LIPY:0:XCS:LAM:VGC:01:TRANS"
+visMin "1"
+visMax "2"
+numPoints 5
+xPoints {
+  0 1245
+  1 1275
+  2 1275
+  3 1245
+  4 1245
+}
+yPoints {
+  0 325
+  1 341
+  2 325
+  3 341
+  4 325
+}
+endObjectProperties
+# (Closed?)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1245
+y 325
+w 32
+h 16
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 35
+visPv "XCS:LIPY:0:XCS:LAM:VGC:01:TRANS"
+visMin "2"
+visMax "3"
+numPoints 5
+xPoints {
+  0 1245
+  1 1275
+  2 1275
+  3 1245
+  4 1245
+}
+yPoints {
+  0 325
+  1 341
+  2 325
+  3 341
+  4 325
+}
+endObjectProperties
+endGroup
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1188
+y 295
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "LAM Valve"
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 504
+w 580
+h 220
+
+beginGroup         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 504
+w 580
+h 220
+lineWidth 1
+lineColor index 14
+
+fill
+fillColor index 4
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 509
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "LEGEND"
+}
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 537
+w 100
+h 18
+lineWidth 1
+lineColor index 14
+
+fill
+fillColor index 4
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 539
+w 100
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Device States"
+}
+endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 569
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 20
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 65
+y 581
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "In Position"
+}
+endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 615
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 15
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 65
+y 627
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Out Position"
+}
+endObjectProperties
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 659
+w 36
+h 36
+lineColor index 14
+lineWidth 2
+fill
+fillColor index 35
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 65
+y 675
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Uncertain State"
+}
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 185
+y 537
+w 100
+h 18
+lineWidth 1
+lineColor index 14
+
+fill
+fillColor index 4
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 187
+y 539
+w 100
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Beam Types"
+}
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 185
+y 581
+w 36
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 230
+y 581
+w 150
+h 12
+font "helvetica-medium-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Simulated Beam Path"
+}
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 185
+y 627
+w 36
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 185
+y 631
+w 36
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 230
+y 627
+w 150
+h 12
+font "helvetica-medium-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Actual Beam Path"
+}
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 537
+w 150
+h 18
+lineWidth 1
+lineColor index 14
+
+fill
+fillColor index 4
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 390
+y 539
+w 150
+h 14
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Transmission States"
+}
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 581
+w 45
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 445
+y 581
+w 150
+h 12
+font "helvetica-medium-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "No Transmission"
+}
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 627
+w 45
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 627
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 631
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 395
+y 627
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 395
+y 631
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 400
+y 627
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 400
+y 631
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 405
+y 627
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 405
+y 631
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 410
+y 627
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 410
+y 631
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 627
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 631
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 420
+y 627
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 420
+y 631
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 627
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 631
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 430
+y 627
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 430
+y 631
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 445
+y 627
+w 150
+h 12
+font "helvetica-medium-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Transmission"
+}
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 675
+w 45
+h 12
+lineWidth 1
+lineColor index 8
+
+fill
+fillColor index 8
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 675
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 679
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 400
+y 675
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 400
+y 679
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 410
+y 675
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 410
+y 679
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 420
+y 675
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 420
+y 679
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 430
+y 675
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 430
+y 679
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 430
+y 675
+w 5
+h 12
+lineWidth 1
+lineColor index 78
+
+fill
+fillColor index 78
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 430
+y 679
+w 5
+h 4
+lineWidth 1
+lineColor index 35
+
+fill
+fillColor index 35
+endObjectProperties
+
+# (Name Tag)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 445
+y 675
+w 150
+h 12
+font "helvetica-medium-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Possible Transmission"
+}
+endObjectProperties
+endGroup
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 311
+y 375
+w 29
+h 18
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "XCS:SB2:VGC:01:OPN_SW"
+pressValue "1"
+onLabel "OPN"
+offLabel "OPN"
+
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 375
+w 29
+h 18
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "XCS:SB2:VGC:01:OPN_SW"
+pressValue "0"
+onLabel "CLS"
+offLabel "CLS"
+
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 765
+y 313
+w 36
+h 36
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LOC\\embeddedControl"
+pressValue "0"
+onLabel "Slits 5"
+offLabel "Slits 5"
+invisible
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 851
+y 313
+w 36
+h 36
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LOC\\embeddedControl"
+pressValue "1"
+onLabel "Slits 6"
+offLabel "Slits 6"
+invisible
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 507
+y 325
+w 36
+h 36
+fgColor index 3
+bgColor index 8
+topShadowColor index 3
+botShadowColor index 3
+font "helvetica-medium-r-18.0"
+numPvs 4
+numDsps 1
+invisible
+displayFileName {
+  0 "/reg/g/pcds/package/epics/3.14/ioc/common/pulsepicker/R1.1.4/pp_screens/pp_mode_control.edl"
+}
+symbols {
+  0 "MOTOR=XPP:SB2:MMS:29"
+}
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1023
+y 313
+w 36
+h 36
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LOC\\embeddedControl"
+pressValue "2"
+onLabel "IPM 5 Diode"
+offLabel "IPM 5 Diode"
+invisible
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 679
+y 313
+w 36
+h 36
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LOC\\embeddedControl"
+pressValue "3"
+onLabel "Be Lens"
+offLabel "Be Lens"
+invisible
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 593
+y 325
+w 36
+h 36
+fgColor index 3
+bgColor index 8
+topShadowColor index 3
+botShadowColor index 3
+font "helvetica-medium-r-18.0"
+numPvs 4
+numDsps 1
+invisible
+displayFileName {
+  0 "/reg/g/pcds/package/epics/3.14/ioc/common/lusiAtt/R1.3.2/lusiAttScreens/lusiAtt_free.edl"
+}
+symbols {
+  0 "HUTCH=XCS,ATT=XCS"
+}
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 937
+y 313
+w 36
+h 36
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LOC\\embeddedControl"
+pressValue "4"
+onLabel "IPM 5 Target"
+offLabel "IPM 5 Target"
+invisible
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1109
+y 313
+w 36
+h 36
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LOC\\embeddedControl"
+pressValue "5"
+onLabel "PIM 5"
+offLabel "PIM 5"
+invisible
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1231
+y 375
+w 29
+h 18
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "XCS:LAM:VGC:01:OPN_SW"
+pressValue "1"
+onLabel "OPN"
+offLabel "OPN"
+
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties
+# (Open Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1260
+y 375
+w 29
+h 18
+fgColor index 25
+onColor index 4
+offColor index 4
+topShadowColor index 1
+botShadowColor index 11
+controlPv "XCS:LAM:VGC:01:OPN_SW"
+pressValue "0"
+onLabel "CLS"
+offLabel "CLS"
+
+3d
+useEnumNumeric
+font "courier-medium-r-12.0"
+endObjectProperties

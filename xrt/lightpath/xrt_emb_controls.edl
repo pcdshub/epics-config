@@ -1,0 +1,198 @@
+
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 2888
+y 2208
+w 600
+h 445
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 7
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+gridSize 8
+endScreenProperties
+
+                         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 48
+w 600
+h 397
+lineWidth 1
+lineColor index 3
+
+fill
+fillColor index 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 600
+h 48
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 43
+value {
+  "        XRT Embedded Controls"
+}
+endObjectProperties
+         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 17
+y 58
+w 565
+h 377
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 8
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 27
+y 68
+w 543
+h 357
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "LOC\\embeddedControl=0"
+numDsps 26
+displayFileName {
+   0 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   1 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_dg3_ipm2_target.edl"
+   2 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mec_ipm1_diode.edl"
+   3 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mec_pim1.edl"
+   4 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hxx_um6_ipm_diode.edl"
+   5 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hfx_dg2_ipm_target.edl"
+   6 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   7 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_ipm1_diode.edl"
+   8 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   9 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_pim1.edl"
+   10 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hfx_dg3_pim.edl"
+   11 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mec_ipm1_target.edl"
+   12 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/mfx_ipm1_target.edl"
+   13 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_mon_ipm_target.edl"
+   14 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hfx_dg2_pim.edl"
+   15 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_sb1_ipm1_target.edl"
+   16 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_sb1_pim1.edl"
+   17 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hfx_dg2_ipm_diode.edl"
+   18 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hxx_um6_pim.edl"
+   19 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hxx_um6_ipm_target.edl"
+   20 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_dg3_pim2.edl"
+   21 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   22 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   23 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_dg3_ipm2_diode.edl"
+   24 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_mon_ipm_diode.edl"
+   25 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xcs_sb1_ipm1_diode.edl"
+}      
+menuLabel {
+   0 "XCS DG3 Jaws"
+   1 "XCS DG3 IPIMB Target"
+   2 "MEC IPIMB Diode"
+   3 "HXM MEC PIM1"
+   4 "UM6 HXX IPIMB Diode"
+   5 "HFX DG2 IPIMB Target"
+   6 "XCS SB1 Jaws"
+   7 "MFX IPIMB Diode"
+   8 "HFX DG3 Jaws"
+   9 "MFX PIM"
+   10 "HFX DG3 PIM"
+   11 "MEC IPIMB Target"
+   12 "MFX IPIMB Target"
+   13 "XCS SB1 IPIMB Target"
+   14 "HFX DG2 PIM"
+   15 "XCS MON IPIMB Target"
+   16 "XCS SB1 PIM"
+   17 "HFX DG2 IPIMB Diode"
+   18 "UM6 HXX PIM"
+   19 "UM6 HXX IPIMB Target"
+   20 "XCS DG3 PIM"
+   21 "HFX DG2 Jaws"
+   22 "UM6 HXX Jaws"
+   23 "XCS DG3 IPIMB Diode"
+   24 "XCS MON IPIMB Diode"
+   25 "XCS SB1 IPIMB Diode"
+}
+symbols {
+   0 "JAWS=XCS:DG3:JAWS,MMS_NTH=XCS:DG3:MMS:11,MMS_LFT=XCS:DG3:MMS:11,MMS_STH=XCS:DG3:MMS:10,MMS_RHT=XCS:DG3:MMS:10,MMS_UP=XCS:DG3:MMS:12,MMS_TOP=XCS:DG3:MMS:12,MMS_DWN=XCS:DG3:MMS:13,MMS_BOT=XCS:DG3:MMS:13"
+   1 "None"
+   2 "None"
+   3 "None"
+   4 "None"
+   5 "None"
+   6 "JAWS=XCS:SB1:JAWS,MMS_NTH=XCS:SB1:MMS:03,MMS_LFT=XCS:SB1:MMS:03,MMS_STH=XCS:SB1:MMS:02,MMS_RHT=XCS:SB1:MMS:02,MMS_UP=XCS:SB1:MMS:04,MMS_TOP=XCS:SB1:MMS:04,MMS_DWN=XCS:SB1:MMS:05,MMS_BOT=XCS:SB1:MMS:05"
+   7 "None"
+   8 "JAWS=HFX:DG3:JAWS,MMS_NTH=HFX:DG3:MMS:02,MMS_LFT=HFX:DG3:MMS:02,MMS_STH=HFX:DG3:MMS:01,MMS_RHT=HFX:DG3:MMS:01,MMS_UP=HFX:DG3:MMS:03,MMS_TOP=HFX:DG3:MMS:03,MMS_DWN=HFX:DG3:MMS:04,MMS_BOT=HFX:DG3:MMS:04"
+   9 "None"
+   10 "None"
+   11 "None"
+   12 "None"
+   13 "None"
+   14 "None"
+   15 "None"
+   16 "None"
+   17 "None"
+   18 "None"
+   19 "None"
+   20 "None"
+   21 "JAWS=HFX:DG2:JAWS,MMS_NTH=HFX:DG2:MMS:03,MMS_LFT=HFX:DG2:MMS:03,MMS_STH=HFX:DG2:MMS:02,MMS_RHT=HFX:DG2:MMS:02,MMS_UP=HFX:DG2:MMS:04,MMS_TOP=HFX:DG2:MMS:04,MMS_DWN=HFX:DG2:MMS:05,MMS_BOT=HFX:DG2:MMS:05"
+   22 "JAWS=HXX:UM6:JAWS,MMS_NTH=HXX:UM6:MMS:02,MMS_LFT=HXX:UM6:MMS:02,MMS_STH=HXX:UM6:MMS:01,MMS_RHT=HXX:UM6:MMS:01,MMS_UP=HXX:UM6:MMS:04,MMS_TOP=HXX:UM6:MMS:04,MMS_DWN=HXX:UM6:MMS:03,MMS_BOT=HXX:UM6:MMS:03"
+   23 "None"
+   24 "None"
+   25 "None"
+}
+noScroll
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 26
+y 67
+w 548
+h 359
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 3
+endObjectProperties

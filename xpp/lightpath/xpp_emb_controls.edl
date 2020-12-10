@@ -1,0 +1,195 @@
+
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 2888
+y 2208
+w 600
+h 445
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 7
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+gridSize 8
+endScreenProperties
+
+                         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 48
+w 600
+h 397
+lineWidth 1
+lineColor index 3
+
+fill
+fillColor index 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 600
+h 48
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 91
+value {
+  "        XPP Embedded Controls"
+}
+endObjectProperties
+         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 17
+y 58
+w 565
+h 377
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 8
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 27
+y 68
+w 543
+h 357
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "LOC\\embeddedControl=0"
+numDsps 25
+displayFileName {
+   0 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb2_xfls.edl"
+   1 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_lodcm_diode.edl"
+   2 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb3_ipm_target.edl"
+   3 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   4 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   5 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb2_ipm_diode.edl"
+   6 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb2_ipm_target.edl"
+   7 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb3_ipm_diode.edl"
+   8 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb2_xfls.edl"
+   9 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hx2_sb1_pim.edl"
+   10 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   11 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   12 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hx2_sb1_ipm_target.edl"
+   13 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   14 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+   15 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb3_ipm_target.edl"
+   16 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/hx2_sb1_ipm_diode.edl"
+   17 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb3_pim.edl"
+   18 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb2_ipm_target.edl"
+   19 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb3_ipm_diode.edl"
+   20 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb2_ipm_diode.edl"
+   21 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_sb3_pim.edl"
+   22 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_lodcm_dh.edl"
+   23 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/xpp_lodcm_dv.edl"
+   24 "/reg/g/pcds/pyps/apps/py_lightpath/embedded_controls/emb-control-slit.edl"
+}      
+menuLabel {
+   0 "SB2 Pink Be Lens"
+   1 "LODCM Diode"
+   2 "SB3 Pink IPM3 Target"
+   3 "SB2 Mono Low Jaws"
+   4 "SB2 Pink Low Jaws"
+   5 "SB2 Mono IPM2 Diode"
+   6 "SB2 Mono IPM2 Target"
+   7 "SB3 Pink IPM3 Diode"
+   8 "SB2 Mono Be Lens"
+   9 "PIM1"
+   10 "SB1 Jaws"
+   11 "SB3 Mono Jaws"
+   12 "IPM1 Target"
+   13 "SB2 Pink High Jaws"
+   14 "SB2 Mono High Jaws"
+   15 "SB3 Mono IPM3 Target"
+   16 "IPM1 Diode"
+   17 "SB3 Mono PIM2"
+   18 "SB2 Pink IPM2 Target"
+   19 "SB3 Mono IPM3 Diode"
+   20 "SB2 Pink IPM2 Diode"
+   21 "SB3 Pink PIM2"
+   22 "LODCM Dectris"
+   23 "LODCM Yag"
+   24 "SB3 Pink Jaws"
+}
+symbols {
+   0 "None"
+   1 "None"
+   2 "None"
+   3 "JAWS=XPP:SB2L:JAWS,MMS_NTH=XPP:SB2:MMS:06,MMS_LFT=XPP:SB2:MMS:06,MMS_STH=XPP:SB2:MMS:05,MMS_RHT=XPP:SB2:MMS:05,MMS_UP=XPP:SB2:MMS:07,MMS_TOP=XPP:SB2:MMS:07,MMS_DWN=XPP:SB2:MMS:08,MMS_BOT=XPP:SB2:MMS:08"
+   4 "JAWS=XPP:SB2L:JAWS,MMS_NTH=XPP:SB2:MMS:06,MMS_LFT=XPP:SB2:MMS:06,MMS_STH=XPP:SB2:MMS:05,MMS_RHT=XPP:SB2:MMS:05,MMS_UP=XPP:SB2:MMS:07,MMS_TOP=XPP:SB2:MMS:07,MMS_DWN=XPP:SB2:MMS:08,MMS_BOT=XPP:SB2:MMS:08"
+   5 "None"
+   6 "None"
+   7 "None"
+   8 "None"
+   9 "None"
+   10 "JAWS=HX2:SB1:JAWS,MMS_NTH=HX2:SB1:MMS:03,MMS_LFT=HX2:SB1:MMS:03,MMS_STH=HX2:SB1:MMS:02,MMS_RHT=HX2:SB1:MMS:02,MMS_UP=HX2:SB1:MMS:04,MMS_TOP=HX2:SB1:MMS:04,MMS_DWN=HX2:SB1:MMS:05,MMS_BOT=HX2:SB1:MMS:05"
+   11 "JAWS=XPP:SB3:JAWS,MMS_NTH=XPP:SB3:MMS:08,MMS_LFT=XPP:SB3:MMS:08,MMS_STH=XPP:SB3:MMS:07,MMS_RHT=XPP:SB3:MMS:07,MMS_UP=XPP:SB3:MMS:09,MMS_TOP=XPP:SB3:MMS:09,MMS_DWN=XPP:SB3:MMS:10,MMS_BOT=XPP:SB3:MMS:10"
+   12 "None"
+   13 "JAWS=XPP:SB2H:JAWS,MMS_NTH=XPP:SB2:MMS:10,MMS_LFT=XPP:SB2:MMS:10,MMS_STH=XPP:SB2:MMS:09,MMS_RHT=XPP:SB2:MMS:09,MMS_UP=XPP:SB2:MMS:11,MMS_TOP=XPP:SB2:MMS:11,MMS_DWN=XPP:SB2:MMS:12,MMS_BOT=XPP:SB2:MMS:12"
+   14 "JAWS=XPP:SB2H:JAWS,MMS_NTH=XPP:SB2:MMS:10,MMS_LFT=XPP:SB2:MMS:10,MMS_STH=XPP:SB2:MMS:09,MMS_RHT=XPP:SB2:MMS:09,MMS_UP=XPP:SB2:MMS:11,MMS_TOP=XPP:SB2:MMS:11,MMS_DWN=XPP:SB2:MMS:12,MMS_BOT=XPP:SB2:MMS:12"
+   15 "None"
+   16 "None"
+   17 "None"
+   18 "None"
+   19 "None"
+   20 "None"
+   21 "None"
+   22 "None"
+   23 "None"
+   24 "JAWS=XPP:SB3:JAWS,MMS_NTH=XPP:SB3:MMS:08,MMS_LFT=XPP:SB3:MMS:08,MMS_STH=XPP:SB3:MMS:07,MMS_RHT=XPP:SB3:MMS:07,MMS_UP=XPP:SB3:MMS:09,MMS_TOP=XPP:SB3:MMS:09,MMS_DWN=XPP:SB3:MMS:10,MMS_BOT=XPP:SB3:MMS:10"
+}
+noScroll
+endObjectProperties         
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 26
+y 67
+w 548
+h 359
+lineWidth 2
+lineColor index 14
+
+fill
+fillColor index 3
+endObjectProperties

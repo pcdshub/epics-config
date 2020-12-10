@@ -1,0 +1,4 @@
+# List of linux hostnames which we know are going to be updated via DNS
+# IocManager will delay installing drivers or launching procmgrd until
+# the hostname is not found in this file.
+apalis-imx6
