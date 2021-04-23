@@ -1,4 +1,4 @@
 #! /bin/bash
 
-HUTCH=mec
+HUTCH=ued
 /reg/g/pcds/pyps/config/${HUTCH}/iocmanager/IocManager --hutch ${HUTCH}
