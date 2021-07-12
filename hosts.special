@@ -22,3 +22,4 @@ xcs-daq			xcs
 ioc-tst-fels01		icl
 ciara00			tst
 tst-desktop             tst
+tmo-control             tmo
