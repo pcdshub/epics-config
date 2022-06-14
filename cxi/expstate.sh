@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HUTCH=CXI
-VER=latest
-export QT_SCALE_FACTOR=2
+VER=R1.0.7
+export QT_SCALE_FACTOR=${QT_SCALE_FACTOR:=1}
 
-/cds/group/pcds/pyps/apps/expstate/${VER}/launch_screen.sh ${HUTCH}
+/cds/group/pcds/epics/ioc/common/expstate/${VER}/launch_est.sh
