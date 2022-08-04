@@ -1,7 +1,9 @@
 #!/bin/bash
 
 HUTCH=XPP
-VER=latest
-export QT_SCALE_FACTOR=2
+VER=R1.0.6
+if [[ -z "$QT_SCALE_FACTOR" ]]; then
+  export QT_SCALE_FACTOR=1
+fi
 
-/cds/group/pcds/pyps/apps/expstate/${VER}/launch_screen.sh ${HUTCH}
+/cds/group/pcds/epics/ioc/common/expstate/${VER}/launch_est.sh
