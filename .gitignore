@@ -12,3 +12,6 @@ iocmanager.json
 svn
 *.save
 *.sav
+
+# Folders moved to their own repos:
+cxi
