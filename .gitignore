@@ -14,4 +14,4 @@ svn
 *.sav
 
 # Folders moved to their own repos:
-cxi
+/cxi
