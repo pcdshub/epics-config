@@ -1,0 +1,3 @@
+[submodule "cxi"]
+	path = cxi
+	url = https://github.com/pcdshub/cxi-config
