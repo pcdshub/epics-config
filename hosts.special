@@ -23,3 +23,6 @@ ioc-tst-fels01		icl
 ciara00			tst
 tst-desktop             tst
 tmo-control             tmo
+tmo-console             tmo
+drp-neh-cmp014          det
+ioc-cxi-wave8b          xpp

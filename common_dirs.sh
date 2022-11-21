@@ -29,6 +29,7 @@ export PYPS_SITE_TOP=/reg/g/pcds/pyps
 export SETUP_SITE_TOP=/reg/g/pcds/setup
 export EPICS_SETUP=$SETUP_SITE_TOP
 export TOOLS_SITE_TOP=/reg/common/tools
+export ENG_TOOLS_SCRIPTS=/reg/g/pcds/engineering_tools/latest/scripts
 
 # Deprecated, soon to disappear
 export EPICS_REPO=file:///afs/slac/g/pcds/vol2/svn/pcds
