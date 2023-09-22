@@ -25,4 +25,6 @@ tst-desktop             tst
 tmo-control             tmo
 tmo-console             tmo
 drp-neh-cmp014          det
-ioc-cxi-wave8b          xpp
+drp-srcf-cmp014         det
+mfx-control     mfx
+ioc-cxi-wave8 		cxi
