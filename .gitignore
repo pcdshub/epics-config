@@ -12,3 +12,11 @@ iocmanager.json
 svn
 *.save
 *.sav
+switchtool.cfg
+*.OLD
+*.202*
+*.#*
+tmp*
+*.bkup
+*.test
+*_old.cfg
