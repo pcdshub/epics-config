@@ -26,5 +26,8 @@ tmo-control             tmo
 tmo-console             tmo
 drp-neh-cmp014          det
 drp-srcf-cmp014         det
-mfx-control     mfx
+mfx-control             mfx
 ioc-cxi-wave8 		cxi
+drp-det-cmp001          det
+drp-neh-cmp007          kfe 
+ctl-tst-mecu-llnl       rrl
