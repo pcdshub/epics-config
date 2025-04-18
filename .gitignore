@@ -20,3 +20,5 @@ tmp*
 *.bkup
 *.test
 *_old.cfg
+.host
+*#

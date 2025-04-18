@@ -14,7 +14,7 @@ daq-det-pnccd02         det
 daq-det-portable2       det
 ioc-sxd-spec            det
 tstcpci01		tst
-ioc-und-rec01		las
+ioc-und-rec01		lfe
 xpp-control		xpp
 xpp-daq			xpp
 xcs-control		xcs
@@ -31,3 +31,4 @@ ioc-cxi-wave8 		cxi
 drp-det-cmp001          det
 drp-neh-cmp007          kfe 
 ctl-tst-mecu-llnl       rrl
+mfx-mezz01              mfx
