@@ -1,4 +1,4 @@
 #! /bin/bash
 
 HUTCH=lasdev
-/reg/g/pcds/pyps/config/${HUTCH}/iocmanager/IocManager --hutch ${HUTCH}
+/cds/group/pcds/pyps/config/${HUTCH}/iocmanager/scripts/gui.sh ${HUTCH}
